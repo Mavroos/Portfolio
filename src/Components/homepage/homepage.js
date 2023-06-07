@@ -104,9 +104,9 @@ function Homepage() {
                     <div className="formContainer">
                         <form  className="form" ref={form} onSubmit={sendEmail}>
                             <h1> Contact Me!</h1>                       
-                                    <input id="name" className='name' type="text" name="user_name" placeholder='Inserisci il tuo nome'/>                          
-                                    <input id="email" className='email' type="email" name="user_email" placeholder='Inserisci la tua email'/>                           
-                                    <textarea id="message" className='message' name="message" placeholder='il tuo messaggio'/>
+                                    <input id="name" className='name' type="text" name="user_name" placeholder='Inserisci il tuo nome' required/>                          
+                                    <input id="email" className='email' type="email" name="user_email" placeholder='Inserisci la tua email' required/>                           
+                                    <textarea id="message" className='message' name="message" placeholder='il tuo messaggio' required />
                                     <input className='submit-btn' type="submit" value="Send" />
                                     <p id='confirmation'></p>
                             </form>   

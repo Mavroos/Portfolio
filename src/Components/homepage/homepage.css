@@ -1,7 +1,6 @@
 #Home{
     display: flex;
     width: 100%;
-    height: 100vh;
 }
 
 #Home .overlay{
@@ -9,7 +8,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
     background-color: rgba(0, 0, 0, .7);
     z-index: -1;
 }
@@ -72,7 +70,6 @@
     position: relative;
     place-items: center;
     width: 100%;
-    height: 100vh;
     padding: 50px 0;
     justify-content: space-between;
     background-color: #f5f5f5;
@@ -80,7 +77,6 @@
 
 #Skills .SkillsContainer{
     display: flex;
-    gap: 170px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -89,6 +85,7 @@
     font-family: 300;
     width: 70%;
 }
+
 
 #Skills .hardwareContainer{
     display: flex;
@@ -139,8 +136,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
     background-color: #111111;
+    padding: 50px 0 100px;
 }
 
 #Projects .projectTitle{
@@ -604,7 +601,6 @@
 #Home{
     display: flex;
     width: 100%;
-    height: 100vh;
 }
 
 #Home .overlay{
@@ -612,7 +608,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
     background-color: rgba(0, 0, 0, .7);
     z-index: -1;
 }
@@ -675,7 +670,6 @@
     position: relative;
     place-items: center;
     width: 100%;
-    height: 100vh;
     padding: 50px 0;
     justify-content: space-between;
     background-color: #f5f5f5;
@@ -742,7 +736,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
     background-color: #111111;
 }
 
