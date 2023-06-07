@@ -44,7 +44,7 @@ function Homepage() {
                     <div className="Hardware">
                         <img src="img/Hardware.webp" className='hardwareImg'/>
                         <div className='hardwareContainer'>
-                            <h1 className="hardwareTitle">Hardware Skills:</h1>
+                            <h1 className="hardwareTitle">Networking Skills:</h1>
                             <p className="hardwareDescription"> Durante il mio percorso con il corso CNNA ITN (Cisco Networking Academy Introduction to Networks), ho acquisito una solida conoscenza e competenza pratica nel campo delle reti informatiche. Questo corso mi ha fornito una base solida nei fondamenti delle reti, permettendomi di comprendere e configurare reti di dimensioni medio-piccole. Inoltre, ho sviluppato abilità nell'assemblaggio e nella manutenzione di computer.</p>
                         </div>
                         

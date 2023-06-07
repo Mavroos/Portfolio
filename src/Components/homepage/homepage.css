@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     position: relative;
+    height: 100vh;
 }
 
 #Home .overlay{
@@ -560,82 +561,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    
+
     #Home .scrollDown {
-        font-size: 15px;
-    }
-
-    #Home .textContainer{
-        gap: 20px;
-    }
-
-    #Skills .SkillsContainer{
-        width: 100%;
-        padding: 15px 0;
-    }
-    #Skills .hardwareImg{
-        width: 200px;
-    }
-
-    #Skills .hardwareDescription{
-        font-size: 11px;
-    }
-
-    #Skills .softwareImg{
-        width: 200px;
-        height: 150px;
-    }
-
-    #Skills .softwareDescription{
-        font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #Home .scrollDown {
-        font-size: 15px;
-    }
-
-    #Home .textContainer{
-        gap: 20px;
-    }
-
-    #Home .mainTitle{
-        padding-top: 30px;
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    #Home .button{
-        border-radius: 9px;
-        padding: 10px 18px;
-        font-size: 0.8rem;
-    }
-
-    #Skills .SkillsContainer{
-        width: 100%;
-        padding: 15px 0;
-    }
-    #Skills .hardwareImg{
-        width: 200px;
-    }
-
-    #Skills .hardwareDescription{
-        font-size: 11px;
-    }
-
-    #Skills .softwareImg{
-        width: 200px;
-        height: 150px;
-    }
-
-    #Skills .softwareDescription{
-        font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #Home .scrollDown {
-        font-size: 8px;
+        font-size: 20px;
     }
 
     #Home .textContainer{
@@ -644,14 +573,14 @@
 
     #Home .mainTitle{
         padding-top: 30px;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 50px;
+        line-height: 50px;
     }
 
     #Home .button{
         border-radius: 6px;
-        padding: 8px 12px;
-        font-size: 0.6rem;
+        padding: 12px 18px;
+        font-size: 0.8rem;
     }
 
     #Skills .SkillsContainer{
