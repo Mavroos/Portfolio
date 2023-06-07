@@ -32,7 +32,7 @@ function Homepage() {
         <div className="All">
             <section id="Home">
                 <div className="overlay"></div>
-                <video autoPlay loop muted playsInline className="bgVideo"> <source src="/img/video.mp4" type = 'video/mp4'/></video>
+                <video autoPlay loop muted playsInline className="bgVideo"> <source src="img/video.mp4" type = 'video/mp4'/></video>
                 <div className="textContainer">
                     <h1 className="mainTitle">Creative <br/> Developer</h1>
                     <a className="button" href="#contact"> Contact me </a>
@@ -42,7 +42,7 @@ function Homepage() {
             <section id="Skills">
                 <div className="SkillsContainer">
                     <div className="Hardware">
-                        <img src="/img/Hardware.webp" className='hardwareImg'/>
+                        <img src="img/Hardware.webp" className='hardwareImg'/>
                         <div className='hardwareContainer'>
                             <h1 className="hardwareTitle">Hardware Skills:</h1>
                             <p className="hardwareDescription"> Durante il mio percorso con il corso CNNA ITN (Cisco Networking Academy Introduction to Networks), ho acquisito una solida conoscenza e competenza pratica nel campo delle reti informatiche. Questo corso mi ha fornito una base solida nei fondamenti delle reti, permettendomi di comprendere e configurare reti di dimensioni medio-piccole. Inoltre, ho sviluppato abilità nell'assemblaggio e nella manutenzione di computer.</p>
@@ -52,7 +52,7 @@ function Homepage() {
                     
                     <div className="Software">
 
-                        <img src="/img/Software.png" className="softwareImg"/>
+                        <img src="img/Software.png" className="softwareImg"/>
                         <div className='softwareContainer'>
                             <h1 className="softwareTitle">Software Skills:</h1>
                             <p className="softwareDescription">Durante i miei anni scolastici, ho imparato linguaggi come HTML, CSS, Java, C++ e Python.Successivamente, ho approfondito la conoscenza di React, una potente libreria JavaScript per lo sviluppo di interfacce utente. Sono un appassionato di apprendimento continuo e sempre alla ricerca di nuove sfide nel campo dello sviluppo software. Sono entusiasta di mettermi a disposizione per contribuire al successo dei progetti futuri.</p>
@@ -68,7 +68,7 @@ function Homepage() {
                         
                         <div className="card">
                             <h1 className="cardTitle"> Progetto prova</h1>
-                            <img src="/img/imgProva.gif" className="cardImg"/>
+                            <img src="img/imgProva.gif" className="cardImg"/>
                             <h3>Coming soon</h3>
                                 <div className="cardLinks">
                                     <a href="/" className="viewCode"> view code</a>    
@@ -78,7 +78,7 @@ function Homepage() {
                         
                         <div className="card">
                             <h1 className="cardTitle"> Progetto prova</h1>
-                            <img src="/img/imgProva.gif" className="cardImg"/>
+                            <img src="img/imgProva.gif" className="cardImg"/>
                             <h3>Coming soon</h3>
                                 <div className="cardLinks">
                                     <a href="/" className="viewCode"> view code</a>    
@@ -88,7 +88,7 @@ function Homepage() {
                         
                         <div className="card">
                             <h1 className="cardTitle"> Progetto prova</h1>
-                            <img src="/img/imgProva.gif" className="cardImg"/>
+                            <img src="img/imgProva.gif" className="cardImg"/>
                             <h3>Coming soon</h3>
                                 <div className="cardLinks">
                                     <a href="/" className="viewCode"> view code</a>    
