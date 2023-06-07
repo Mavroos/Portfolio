@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Home{
     display: flex;
     width: 100%;
@@ -601,8 +600,7 @@
     #Skills .softwareDescription{
         font-size: 11px;
     }
-   
-=======
+
 #Home{
     display: flex;
     width: 100%;
@@ -1205,6 +1203,6 @@
     #Skills .softwareDescription{
         font-size: 11px;
     }
+}
    
->>>>>>> bb2d0a04ce3473edcc3520ef13ae46eefad06df3
 }
