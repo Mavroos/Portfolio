@@ -1,0 +1,82 @@
+<<<<<<< HEAD
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    z-index: 10;
+}
+
+.lista{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+
+.element{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .header{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .lista{
+        font-size: 12;
+        gap: 10px;
+    }
+=======
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    z-index: 10;
+}
+
+.lista{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+
+.element{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .header{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .lista{
+        font-size: 12;
+        gap: 10px;
+    }
+>>>>>>> bb2d0a04ce3473edcc3520ef13ae46eefad06df3
+}
