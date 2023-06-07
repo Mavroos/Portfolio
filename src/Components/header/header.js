@@ -9,7 +9,7 @@ function header() {
             <ul className="lista">
                 <li><a className="element" href="#Home">Home</a></li>
                 <li><a className="element" href="#Skills">Skills</a></li>
-                <li><a className="element" href="#Projects">Projects</a></li> <a></a>
+                <li><a className="element" href="#Projects">Projects</a></li>
             </ul>
         </div>
       

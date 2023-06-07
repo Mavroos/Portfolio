@@ -1,6 +1,7 @@
 #Home{
     display: flex;
     width: 100%;
+    position: relative;
 }
 
 #Home .overlay{
@@ -25,8 +26,8 @@
     position: absolute;
     justify-content: center;
     width: 100%;
-    height: 90vh;
     top: 0;
+    bottom: 0;
     gap: 40px;
 }
 
@@ -479,6 +480,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
     #Home .scrollDown {
         font-size: 15px;
     }
@@ -488,14 +490,14 @@
     }
 
     #Home .mainTitle{
-        font-size: 50px;
-        line-height: 45px;
+        font-size: 40px;
+        line-height: 35px;
     }
 
     #Home .button{
-        border-radius: 9px;
-        padding: 12px 18px;
-        font-size: 0.8rem;
+        border-radius: 6px;
+        padding: 8px 14px;
+        font-size: 0.6rem;
     }
 
     #Skills .SkillsContainer{
@@ -566,17 +568,6 @@
         gap: 20px;
     }
 
-    #Home .mainTitle{
-        font-size: 40px;
-        line-height: 45px;
-    }
-
-    #Home .button{
-        border-radius: 9px;
-        padding: 10px 18px;
-        font-size: 0.8rem;
-    }
-
     #Skills .SkillsContainer{
         width: 100%;
         padding: 15px 0;
@@ -597,563 +588,6 @@
     #Skills .softwareDescription{
         font-size: 11px;
     }
-
-#Home{
-    display: flex;
-    width: 100%;
-}
-
-#Home .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .7);
-    z-index: -1;
-}
-
-#Home .bgVideo{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
-}
-
-#Home .textContainer{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: center;
-    width: 100%;
-    height: 90vh;
-    top: 0;
-    gap: 40px;
-}
-
-#Home .mainTitle{
-    color: #fff;
-    font-weight: 700;
-    font-size: 90px;
-    line-height: 100px;
-}
-
-#Home .button{
-    text-decoration: none;
-    align-self: center;
-    background-color: #fff;
-    border-radius: 14px;
-    color: #000;
-    font-size: 1.2rem;
-    font-weight: 500;
-    padding: 16px 32px;
-    transition: all .5s ease-in-out;
-    width: fit-content;
-}
-
-#Home .scrollDown{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 100;
-    position: absolute;
-    justify-self: flex-end;
-    align-self: flex-start;
-    bottom: 20px;
-    left: 40px;
-}
-
-
-/* SKILLS */
-
-
-#Skills{
-    display: grid;
-    position: relative;
-    place-items: center;
-    width: 100%;
-    padding: 50px 0;
-    justify-content: space-between;
-    background-color: #f5f5f5;
-}
-
-#Skills .SkillsContainer{
-    display: flex;
-    gap: 170px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    font-size: 20px;
-    font-family: 300;
-    width: 70%;
-}
-
-#Skills .hardwareContainer{
-    display: flex;
-    flex-direction: column;
-}
-
-#Skills .hardwareImg{
-    width: 450px;
-}
-
-#Skills .Hardware{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-}
-
-#Skills .Software{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#Skills .softwareImg{
-    display: flex;
-    width: 450px;
-}
-
-#Skills .softwareContainer{
-    display: flex;
-    flex-direction: column;
-}
-
-#Skills .hardwareDescription{
-    font-size: 20px;
-}
-
-#Skills .softwareDescription{
-    font-size: 20px;
-}
-
-/*Projects*/
-
-#Projects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #111111;
-}
-
-#Projects .projectTitle{
-    color: white;
-}
-
-#Projects .projectContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    gap: 50px;
-}
-
-#Projects .projectBgVideo{
-    position: absolute;
-    width: 100%;
-    object-fit: cover;
-    z-index: -2;
-    filter: grayscale(1);
-}
-
-#Projects .cardContainer{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-    width: 100%;
-}
-
-#Projects .cardImg{
-    object-fit: cover;
-    border-radius: 16px;
-    width: 100%;
-}
-
-#Projects .card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
-    padding: 16px;
-    width: 350px;
-    
-}
-
-#Projects .card .cardLinks{
-    display: flex;
-    gap: 20px;
-}
-
-#Projects .card .cardLinks .viewCode{
-    background-color: #2f2e41;
-    border: 1.8px solid #2f2e41;
-    border-radius: 5px;
-    color: #fff;
-    letter-spacing: .5px;
-    padding: 6px 12px;
-    text-decoration: none;
-}
-
-#Projects .card .cardLinks .liveDemo{
-    background-color: #0e91e6;
-    border: 1.8px solid #0e91e6;
-    border-radius: 5px;
-    color: #fff;
-    letter-spacing: .5px;
-    padding: 6px 12px;
-    text-decoration: none;
-}
-
-/* Contact Form*/
-
-#contact{
-    width: 100%;
-    background-color: #f5f5f5;
-}
-
-#contact .contactContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-    gap: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
-}
-
-#contact .form{
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    gap: 10px;
-}
-
-#contact .formContainer{
-    display: flex;
-    background-color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    color: #000;
-    border-radius: 15px;
-}
-
-#contact .name{
-    width: 300px;
-    padding: 10px;
-    outline: none;
-    border-radius: 7px;
-    border: 1px solid #ccc;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-}
-
-#contact .email{
-    width:300px;
-    padding: 10px;
-    outline: none;
-    font-size: 18px;
-    border-radius: 7px;
-    border: 1px solid #ccc;
-    font-family: 'Poppins', sans-serif;
-}
-
-#contact .message{
-    width: 300px;
-    padding: 10px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    height: 200px;
-    outline: none;
-    resize: none;
-    border-radius: 7px;
-    border: 1px solid #ccc;
-    
-}
-
-#contact .label{
-    text-align: left;
-}
-
-#contact .submit-btn{
-    text-decoration: none;
-    background-color: #000;
-    border-radius: 14px;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 500;
-    padding: 6px 16px;
-    transition: all .5s ease-in-out;
-    cursor: pointer;
-}
-
-/* ALL @media */
-
-@media screen and (max-width: 1300px) {
-    #Home .scrollDown {
-        font-size: 20px;
-    }
-
-    #Home .textContainer{
-        gap: 25px;
-    }
-
-    #Home .mainTitle{
-        font-size: 70px;
-        line-height: 60px;
-    }
-
-    #Home .button{
-        border-radius: 12px;
-        padding: 12px 22px;
-        font-size: 0.8rem;
-    }
-
-    #Skills{
-        height: fit-content;
-    }
-    
-    #Skills .SkillsContainer{
-        display: flex;
-        width: 90%;
-        padding: 15px 0;
-        gap: 100px;
-    }
-
-    #Skills .softwareImg{
-        width: 300px;
-        height: 250px;
-    }
-
-    #Skills .hardwareImg{
-        width: 300px;
-    }
-
-    #Skills .hardwareDescription{
-        font-size: 15px;
-    }
-
-    #Skills .softwareDescription{
-        font-size: 15px;
-    }
-
-    #Projects .card{
-        width: 240px;
-    }
-
-    #Projects .projectBgVideo{
-        height: 100%;
-    }
-
-    
-}
-
-@media screen and (max-width: 1024px) {
-    #Home .scrollDown {
-        font-size: 20px;
-    }
-
-    #Home .textContainer{
-        gap: 25px;
-    }
-
-    #Home .mainTitle{
-        font-size: 70px;
-        line-height: 60px;
-    }
-
-    #Home .button{
-        border-radius: 12px;
-        padding: 12px 22px;
-        font-size: 0.8rem;
-    }
-
-    #Skills{
-        height: fit-content;
-    }
-    
-    #Skills .SkillsContainer{
-        display: flex;
-        width: 90%;
-        padding: 15px 0;
-        gap: 100px;
-    }
-
-    #Skills .softwareImg{
-        width: 300px;
-        height: 250px;
-    }
-
-    #Skills .hardwareImg{
-        width: 250px;
-    }
-
-    #Skills .hardwareDescription{
-        font-size: 15px;
-    }
-
-    #Skills .softwareDescription{
-        font-size: 15px;
-    }
-
-    #contact .formContainer{
-        display: flex;
-    }
-
-    #contact .contactImg{
-        width: 250px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #Home .scrollDown {
-        font-size: 15px;
-    }
-
-    #Home .textContainer{
-        gap: 25px;
-    }
-
-    #Home .mainTitle{
-        font-size: 60px;
-        line-height: 50px;
-    }
-
-    #Home .button{
-        border-radius: 11px;
-        padding: 12px 20px;
-        font-size: 0.8rem;
-    }
-
-    
-    #Skills .SkillsContainer{
-        width: 90%;
-        padding: 15px 0;
-    }
-
-    #Skills .Hardware{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #Skills .Software{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #Skills .hardwareImg{
-        width: 300px;
-    }
-
-    #Skills .hardwareDescription{
-        font-size: 15px;
-    }
-
-    #Skills .softwareImg{
-        width: 300px;
-        height: 250px;
-    }
-
-    #Skills .softwareDescription{
-        font-size: 15px;
-    }
-
-    #Projects .card{
-        width: 200px;
-    }
-
-
-    #contact .contactImg{
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    #Home .scrollDown {
-        font-size: 15px;
-    }
-
-    #Home .textContainer{
-        gap: 20px;
-    }
-
-    #Home .mainTitle{
-        font-size: 50px;
-        line-height: 45px;
-    }
-
-    #Home .button{
-        border-radius: 9px;
-        padding: 12px 18px;
-        font-size: 0.8rem;
-    }
-
-    #Skills .SkillsContainer{
-        width: 100%;
-        padding: 15px 0;
-    }
-
-    #Skills .hardwareImg{
-        width: 200px;
-    }
-
-    #Skills .hardwareDescription{
-        font-size: 11px;
-    }
-
-    #Skills .softwareImg{
-        width: 200px;
-        height: 150px;
-    }
-
-    #Skills .softwareDescription{
-        font-size: 11px;
-    }
-    
-    #Projects .card{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        border-radius: 20px;
-        padding: 16px;
-        width: 200px;
-        
-    }
-
-    #Projects .card .cardLinks{
-        display: flex;
-        gap: 20px;
-    }
-    
-    #Projects .card{
-        width: 120px;
-        font-size: 10px;
-    }
-    #Projects .card .cardLinks{
-        display: flex;
-        gap: 5px;
-        border-radius: 3px 0;
-        font-size: 8px;
-    }
-
-    #Projects .card .cardLinks .viewCode{
-        padding: 3px 6px;
-    }
-    
-    #Projects .card .cardLinks .liveDemo{
-        padding: 3px 6px;
-    }
-    
 }
 
 @media screen and (max-width: 480px) {
@@ -1166,8 +600,9 @@
     }
 
     #Home .mainTitle{
-        font-size: 40px;
-        line-height: 45px;
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     #Home .button{
@@ -1197,5 +632,59 @@
         font-size: 11px;
     }
 }
-   
-}
+
+@media screen and (max-width: 480px) {
+    #Home .scrollDown {
+        font-size: 8px;
+    }
+
+    #Home .textContainer{
+        gap: 10px;
+    }
+
+    #Home .mainTitle{
+        padding-top: 30px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #Home .button{
+        border-radius: 6px;
+        padding: 8px 12px;
+        font-size: 0.6rem;
+    }
+
+    #Skills .SkillsContainer{
+        width: 100%;
+        padding: 15px 0;
+    }
+    #Skills .hardwareImg{
+        width: 200px;
+    }
+
+    #Skills .hardwareDescription{
+        font-size: 11px;
+    }
+
+    #Skills .softwareImg{
+        width: 200px;
+        height: 150px;
+    }
+
+    #Skills .softwareDescription{
+        font-size: 11px;
+    }
+
+    #contact{
+        width: 100%;
+    }
+    #contact .name{
+        width: 100%;
+    }
+    #contact .email{
+        width: 100%;
+    }
+    #contact .message{
+        width: 100%;
+    }
+}   
